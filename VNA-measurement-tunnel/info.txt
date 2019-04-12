@@ -1,0 +1,21 @@
+VNA tests in the AWAKE tunnel on April 11th, 2019:
+
+- 4 port network measurement of the BPM51:
+    60 mm version
+    last before the plasma cell
+    filename: AWAKE_60MM_TUNNEL_BPM51.S4P
+    
+- 4 port network measurement of the last BPM of the electron line before the merging with the proton-laser line:
+    40 mm version
+    last one of the electron beamline
+    filename: AWAKE_40MM_LAST_BEFORE_MERGE.S4P
+    
+Port naming convention:
+VNA      |   BPM port
+----------------------
+Port A  -->  H+
+Port B  -->  H-
+Port C  -->  V+
+Port D  -->  V-
+
+Note: VNA calibrated before each measurement. Port C and D calibrated and used with SMA L-shape adapters in order to reach the BPM ports under the slignment survey tables
